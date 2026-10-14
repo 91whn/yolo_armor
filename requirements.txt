@@ -1,0 +1,9 @@
+# Python 依赖说明文件
+# 安装命令: pip install -r requirements.txt
+
+# 核心推理依赖
+ultralytics>=8.0.0      # YOLO系列模型推理框架 (支持YOLO26)
+torch>=1.10.0           # PyTorch深度学习框架 (CPU或GPU版本)
+torchvision>=0.11.0     # 图像处理与模型库
+opencv-python>=4.5.0    # 视频读取、绘制检测框与关键点、视频保存
+numpy>=1.20.0           # 数值计算与数组操作
