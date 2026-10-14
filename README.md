@@ -61,3 +61,7 @@ pip install -r requirements.txt
   1. 出现 `No such file or directory`：发现Windows隐藏了文件后缀，导致文件名变成 `infer.py.txt`，通过命令行 `ren infer.py.txt infer.py` 修复。
   2. 出现 `模型文件不存在: best.pt`：由于原文件名有空格（`best .pt`），通过 `ren "best .pt" best.pt` 修复。
   3. 视频名字重复（`armor_video.mp4.mp4`）：同样通过 `ren` 命令去除了多余后缀。
+         
+
+
+
